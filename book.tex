@@ -1,18 +1,30 @@
-\documentclass[letterpaper]{amsbook}
+\documentclass[8pt]{amsbook}
+\usepackage{lipsum}
 \usepackage{minitoc}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage[a6paper]{geometry}
 \title{The Death And Life Of American Suburbia}
 \author{George Rogers}
 \begin{document}
+\dominitoc
 \maketitle
 \input{license}
 \tableofcontents
-\input{preface}
-\input{sfh}
-\input{cars}
-\input{roads}
-\input{stripmall}
-\input{mall}
+\chapter{Privacy \& Space}
+\lipsum{10}
+\chapter{Roads \& The Use Thereof}
+\section{Residential Streets}
+\lipsum{5}
+\section{Freeways}
+\lipsum{5}
+\section{Feeders}
+\lipsum{5}
+\section{Arterials}
+\lipsum{5}
+\chapter{Strip Malls}
+\lipsum{20}
+\chapter{Malls}
+\lipsum{20}
 \listoffigures
 \end{document}
