@@ -4,26 +4,28 @@
 \usepackage{amsmath}
 \usepackage[english]{babel}
 \usepackage{lipsum}
-\usepackage[letterpaper, top=1in, bottom=1in, left=1in, right=1in]{geometry}
+%\usepackage[letterpaper, top=1in, bottom=1in, left=1in, right=1in]{geometry}
 %\usepackage[papersize={4.25in,11in}, top=1in, bottom=1in]{geometry}
 %\usepackage[papersize={5.5in,8.5in}, top=1in, bottom=1in]{geometry}
-%\usepackage[papersize={4.25in,5.5in}, top=0.75in, bottom=0.75in]{geometry}
+\usepackage[papersize={4.25in,5.5in}, top=0.75in, bottom=0.75in]{geometry}
 
 \title{The Death And Life Of American Suburbia}
 \author{George Rogers}
 \begin{document}
+\setcounter{chapter}{-1}
 \dominitoc
 \maketitle
 \input{license}
 \tableofcontents
 
 \chapter{Why Suburbia}
+\begin{quotation}
+    Suburbia is the best way to give the masses the best of both the City and Country lifestyles.
+    Therefore if your anti-suburb you are anti-progress.
+\end{quotation}
 \minitoc
 
-\section{Suburbia Through History}
-In the book \textsl{Sprawl: A Compact History}\cite{Bruegmann05}
-
-\section{Suburbia And Progress}
+In \cite{rBruegmann05}, Robert Bruegmann explains the hows and whys of suburbanization throughout history.
 
 Wealth breeds a want for privacy,
 therefore as affluence reaches the mainstream suburbia blooms.
@@ -34,20 +36,21 @@ Therefore going back to the pre automobile city is a pipe dream.
 
 Suburbia is the best way to give the masses the best of both the City and Country lifestyles.
 Therefore if your anti-suburb you are anti-progress.
+\section{Pre-Transit Suburbs}
+\section{Transit Suburbs}
+\section{Automobile Suburbs}
+\section{Edge City}
 \chapter{Roads And Their Usage}
 \minitoc
 \section{Residential Streets}
 \section{Freeways}
 \section{Feeders}
 \section{Arterials}
-\chapter{Strip Malls}
+\chapter{Malls}
 \minitoc
-\section{Relationship With Arterials}
-\section{Mixing Rents}
-\chapter{Malls And Town Centers}
-\minitoc
+\section{Strip Malls}
 \section{Malls}
 \section{Town Centers}
-\bibliographystyle{acm}
+\bibliographystyle{apalike}
 \bibliography{bibliography}
 \end{document}
